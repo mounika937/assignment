@@ -4,7 +4,7 @@ A simple iOS app built using **SwiftUI** and **The Movie Database (TMDb) API**.
 The app lists popular movies, allows search, shows detailed information with trailers, and supports marking favorites.
 
 ---
-
+#
 ## 🚀 Features
 
 ✅ **Popular Movies List**
@@ -35,8 +35,9 @@ The app lists popular movies, allows search, shows detailed information with tra
 ### 2️⃣ Add Your Key
 Open `TMDbService.swift` and replace:
 
-```swift
 static let apiKey = "YOUR_API_KEY_HERE"
+
+with your actual TMDb key.
 
 ### 3️⃣ Open and Run
 Open the project in Xcode 15+
