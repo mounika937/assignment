@@ -38,7 +38,7 @@ Open `TMDbService.swift` and replace:
 ```swift
 static let apiKey = "YOUR_API_KEY_HERE"
 
-3️⃣ Open and Run
+### 3️⃣ Open and Run
 Open the project in Xcode 15+
 
 Select a simulator (iPhone 15 recommended)
