@@ -36,4 +36,32 @@ The app lists popular movies, allows search, shows detailed information with tra
 Open `TMDbService.swift` and replace:
 
 ```swift
-static let apiKey = 93540f515966d8a3d07bdfb4ea65948b
+static let apiKey = "YOUR_API_KEY_HERE"
+
+3️⃣ Open and Run
+Open the project in Xcode 15+
+
+Select a simulator (iPhone 15 recommended)
+
+Press Cmd + R to build and run.
+
+No additional dependencies are required.
+
+🧠 Assumptions
+The app is built for iOS 16+.
+
+Internet connection is required to fetch data and trailers.
+
+TMDb’s image and video links are valid for poster/trailer display.
+
+YouTube videos are assumed to allow embedding (some may not, showing error 153).
+
+⚠️ Known Limitations
+Some videos are restricted and may not play (Error 153 from YouTube).
+
+Movie runtime requires an additional API call for each row (may slightly affect list performance).
+
+No offline caching — app requires active internet access.
+
+No pagination for large lists (fetches one page of popular results).
+
